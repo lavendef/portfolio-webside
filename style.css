@@ -187,6 +187,17 @@ nav ul li a:hover::after{
 .tab-content.active-tab{
   display: block;
 }
+.tab-content a i{
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #FFFFFF;
+  transition: transform 0.5s;
+}
+.tab-content a i:hover{
+  color: #11A9A8;
+  transform: translateY(-5px);
+}
 /*--------------------certificate--------------------------*/
 #certificatezone{
   padding-left: 20px;
@@ -227,6 +238,17 @@ nav ul li a:hover::after{
 .certificatelist div:hover{
   background: #FF69B4;
   transform: translateY(-10px);
+}
+#certificatezone #houseiconnic2{
+  text-decoration: none;
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: transform 0.5s;
+}
+#certificatezone #houseiconnic2:hover{
+  color: #FBCAE0;
+  transform: translateY(-5px);
 }
 /*--------------------project--------------------------*/
 #projectport{
@@ -301,7 +323,7 @@ nav ul li a:hover::after{
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 2px solid #FFD700;
+  border: 2px solid #F2AF13;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -309,8 +331,20 @@ nav ul li a:hover::after{
   transition: background 0.5s;
 }
 .inluv:hover{
-  background: #FFD700;
+  background: #F2AF13;
 }
+.containnerfor #houseiconnic3{
+  text-decoration: none;
+  margin-top: 15px;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: transform 0.5s;
+}
+.containnerfor #houseiconnic3:hover{
+  color: #EEE78E;
+  transform: translateY(-5px);
+}
+
 /*--------------------contact--------------------------*/
 #contact{
   padding: 50px;
@@ -427,6 +461,17 @@ form .butt{
   background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
+.coltext-left #houseiconnic4{
+  text-decoration: none;
+  margin-top: 100px;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: transform 0.5s;
+}
+.coltext-left #houseiconnic4:hover{
+  color: #A9B062;
+  transform: translateY(-5px);
+}
 /*--------------------small screens--------------------------*/
 nav .bx{
   color: whitesmoke;
@@ -445,7 +490,7 @@ nav .bx{
     font-size: 25px;
   }
   nav ul{
-    background: #1ecdf4;
+    background: #1ecdf487;
     position: fixed;
     top: 0;
     right: -200px;
@@ -485,11 +530,37 @@ nav .bx{
     flex-basis: 100%;
   }
   .copyright{
-    margin: 0 20px;
+    margin: 0 30px;
   }
   .certificatelist{
     margin: 0 30px;
     margin-top: 20px;
+  }
+  .tab-content a i{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  #certificatezone #houseiconnic2{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .containnerfor #houseiconnic3{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .coltext-left #houseiconnic4{
+    margin-top: 25px;
+    font-size: 15px
+  }
+  .subtitlefor{
+    font-size: 40px;
+  }
+  .subtitletree{
+    font-size: 40px;
+  }
+  .subtitletwo{
+    font-size: 40px;
   }
 
 }
