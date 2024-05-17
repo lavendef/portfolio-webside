@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Channarongdet</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/77e8df5b4c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="app.js"></script>
+  <div id="header">
+    <div class="contain">
+      <nav>
+        <a href="#" class="Name">Channarongdet</a>
+        <ul id="side">
+          <li><a href="#header"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#about-mee"><i class="fa-solid fa-address-card"></i>About Me</a></li>
+          <li><a href="#certificatezone"><i class="fa-solid fa-certificate"></i>My Activity</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-face-laugh-wink"></i>Order about me</a></li>
+          <i class='bx bx-x' onclick="closemenu()"></i>
+        </ul>
+        <i class='bx bx-menu' onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h2>ชาญณรงค์เดช วงค์ยศ</h2>
+        <p>สวัสดีครับ <span>กระผมชื่อชาญณรงค์เดช วงค์ยศ</span> นะครับ <span>นี้เป็นเว็ปไซต์ Portfolio ของกระผม</span>
+          <br>กระผมหวังว่าทุกคนจะมีความสุขในเว็ปไซต์ของกระผมนะครับ :)
+        </p>
+        <br>
+        <a href="Port ver. 1.pdf" download="Channarongdet Portfolio">
+          <button class="button"><span> Download </span> </button> </a>
+
+
+      </div>
+    </div>
+
+  </div>
+  <!-------------------------about--------------------->
+  <div id="about-mee">
+    <div class="containner2">
+      <div class="row">
+        <div class="about-zone-1">
+          <img src="งานพลุ.jpg" class="somepig">
+        </div>
+        <div class="about-zone-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, iste aliquid non a, sed repellendus nam
+            repudiandae eos possimus voluptas neque porro hic ducimus nulla temporibus doloribus. Ducimus, at vitae!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error facilis voluptates consequatur. Explicabo
+            quos modi odit enim quas eligendi harum ullam, culpa reiciendis. Animi voluptatibus eos voluptas dolores
+            excepturi culpa.</p>
+          <div class="tab-title">
+            <p class="links-tab active-link" onclick="opentab('skills')">Skills</p>
+            <p class="links-tab" onclick="opentab('experience')">Experience</p>
+            <p class="links-tab" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-content active-tab" id="skills">
+            <ul>
+              <li><span>ด้านโปรแกรม</span><br><i class="fa-brands fa-html5"></i>HTML <i
+                  class="fa-brands fa-css3-alt"></i>CSS <i class="fa-brands fa-python"></i>Python <i
+                  class="fa-brands fa-java"></i>Java</li>
+              <li><span>ด้านภาษา</span><br>ภาษาอังกฤษ ภาษาไทย ภาษาญี่ปุ่น</li>
+              <li><span>Softskill/Hardskill</span><br>ทักษะการทำงานเป็นทีม ทักษะการคิดวิเคราะห์ ๆลๆ</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><span>ด้านโปรแกรม 2</span><br><i class="fa-brands fa-html5"></i>HTML <i
+                  class="fa-brands fa-css3-alt"></i>CSS <i class="fa-brands fa-python"></i>Python <i
+                  class="fa-brands fa-java"></i>Java</li>
+              <li><span>ด้านภาษา</span><br>ภาษาอังกฤษ ภาษาไทย ภาษาญี่ปุ่น</li>
+              <li><span>Softskill/Hardskill</span><br>ทักษะการทำงานเป็นทีม ทักษะการคิดวิเคราะห์ ๆลๆ</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span>ด้านโปรแกรม 3</span><br><i class="fa-brands fa-html5"></i>HTML <i
+                  class="fa-brands fa-css3-alt"></i>CSS <i class="fa-brands fa-python"></i>Python <i
+                  class="fa-brands fa-java"></i>Java</li>
+              <li><span>ด้านภาษา</span><br>ภาษาอังกฤษ ภาษาไทย ภาษาญี่ปุ่น</li>
+              <li><span>Softskill/Hardskill</span><br>ทักษะการทำงานเป็นทีม ทักษะการคิดวิเคราะห์ ๆลๆ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-------------------------certificate--------------------->
+  <div id="certificatezone">
+    <div class="containtree">
+      <h1 class="subtitletwo">My Certificate</h1>
+      <div class="certificatelist">
+        <div>
+          <h2>Certificate 1</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 2</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 3</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 4</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 5</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 6</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 7</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Certificate 8</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, hic maiores facilis perspiciatis recusandae
+            illum praesentium eos rerum quibusdam reprehenderit voluptatem, ipsam ratione iure aliquid asperiores maxime
+            error consequuntur cupiditate.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------portfolio--------------------->
+  <div id="projectport">
+    <div class="containnerfor">
+      <h1 class="subtitletree">My project</h1>
+      <div class="projectlist">
+        <div class="forport">
+          <img src="Image_not_available.png">
+          <div class="layer">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis velit quos commodi assumenda quo
+              ipsa saepe exercitationem molestias perferendis architecto,</p>
+            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+          </div>
+        </div>
+        <div class="forport">
+          <img src="Image_not_available.png">
+          <div class="layer">
+            <h3>Project 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis velit quos commodi assumenda quo
+              ipsa saepe exercitationem molestias perferendis architecto,</p>
+            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+          </div>
+        </div>
+        <div class="forport">
+          <img src="Image_not_available.png">
+          <div class="layer">
+            <h3>Project 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis velit quos commodi assumenda quo
+              ipsa saepe exercitationem molestias perferendis architecto,</p>
+            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="inluv">See more :D</a>
+    </div>
+  </div>
+  <!-------------------------contact--------------------->
+  <div id="contact">
+    <div class="containive">
+      <div class="row">
+        <div class="coltext-left">
+          <h1 class="subtitlefor">Contact Me</h1>
+          <p><i class="fa-regular fa-paper-plane"></i>gugftuhutott1234@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0955725663</p>
+          <div class="socialicon">
+            <a href="https://www.facebook.com/profile.php?id=100032142436605"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lalavedeffu555/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/lavendef"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="coltext-right">
+          <form name="submit-to-google-sheet">
+            <input class="shadow" type="text" name="Name" placeholder="Your Name" required>
+            <input class="shadow" type="email" name="Email" placeholder="Youe Email" required>
+            <textarea class="shadow" name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="butt" type="submit"> <span>Let's Submit</span></button>
+          </form>
+        </div>
+        
+        <span id ="okie">ok</span>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &copy; Channarongdet. Inspire by GreatStack in <i class="fa-brands fa-youtube"></i> <br>Make it to
+        you with <i class="fa-solid fa-heart"></i>,<br>Thank You for Your Attention to my Webside<br> All Right Rese</p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("links-tab");
+    var tabcontents = document.getElementsByClassName("tab-content");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+  <script>
+    var sideee = document.getElementById("side");
+    function openmenu() {
+      sideee.style.right = "0";
+    }
+
+    function closemenu() {
+      sideee.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz6WcBjjwtcsYtVZ9Lv59HjMav5XJ-NyqOG7p0KROB4sUQUbK-K1e4AByU8pODqC5tD/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+  </script>
+</body>
+
+</html>
