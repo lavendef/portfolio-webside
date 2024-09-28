@@ -1,0 +1,77 @@
+body {
+    font-family: line_seed_sans_th;
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #222;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+img {
+    vertical-align: middle;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+.contain{
+  padding: 10px 10%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #222;
+}
+.Name {
+  font-size: 32px;
+  color: #ffa3da;
+  text-decoration: none;
+  font-weight: 700;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+nav ul li a i{
+  margin-right: 10px;
+}
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: rgb(255, 192, 174);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+.header-text{
+  color: #FFFFFF;
+  margin-top: 20%;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+.header-text h2{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.header-text p span{
+  color: #F94D00;
+}
