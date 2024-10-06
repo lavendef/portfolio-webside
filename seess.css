@@ -1,22 +1,20 @@
-body {
-    font-family: line_seed_sans_th;
-    margin: 0;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-color: #222;
-}
-  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
-img {
-    vertical-align: middle;
 }
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-    position: relative;
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
 }
 .contain{
   padding: 10px 10%;
@@ -26,24 +24,25 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #222;
+
 }
 .Name {
-  font-size: 32px;
-  color: #ffa3da;
+  font-size: 28px;
+  color: #feb1d6;
   text-decoration: none;
   font-weight: 700;
 }
 nav ul li{
   display: inline-block;
   list-style: none;
-  margin: 10px 30px;
+  margin: 10px 20px;
 }
 nav ul li a{
   color: whitesmoke;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
+
 }
 nav ul li a i{
   margin-right: 10px;
@@ -52,7 +51,7 @@ nav ul li a::after{
   content: '';
   width: 0;
   height: 3px;
-  background: rgb(255, 192, 174);
+  background: rgb(255, 185, 179);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -73,5 +72,108 @@ nav ul li a:hover::after{
   margin-top: 20px;
 }
 .header-text p span{
-  color: #F94D00;
+  color: #feb1d6;
+}
+.button {
+  border-radius: 4px;
+  background-color: #ff9d73;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  font-family: "line_seed_sans_th", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*-------------------รวมเกรียรติบัตร---------------------*/
+#Cherificate{
+  padding: 80px 0;
+}
+.containtoo{
+  padding: 10px 10%;
+}
+.containtoo h2{
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.containtoo .intro{
+  color: #ffffff;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 30px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\2193";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2191";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(255, 163, 163);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.Slovefor2morow{
+  width: 50%;
+  align-items: center;
+  margin-top: 20px;
+}
+.panel p{
+  margin-top: 20px;
 }

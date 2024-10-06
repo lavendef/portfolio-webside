@@ -27,7 +27,7 @@ nav{
 
 }
 .Name {
-  font-size: 32px;
+  font-size: 28px;
   color: #F94D00;
   text-decoration: none;
   font-weight: 700;
@@ -40,7 +40,7 @@ nav ul li{
 nav ul li a{
   color: whitesmoke;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
 
 }
@@ -76,20 +76,21 @@ nav ul li a:hover::after{
 }
 .button {
   border-radius: 4px;
-  background-color: #1ecdf4;
+  background-color: #ff9d73;
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 3px;
-  font-family: "Outfit", sans-serif;
+  font-family: "line_seed_sans_th", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  margin-top: 20px;
 }
 
 .button span {
@@ -200,6 +201,7 @@ nav ul li a:hover::after{
 /*--------------------certificate--------------------------*/
 #certificatezone{
   padding-left: 20px;
+  padding-right: 20px;
 }
 .subtitletwo{
   font-size: 60px;
@@ -271,6 +273,7 @@ nav ul li a:hover::after{
 }
 .forport img{
   width: 100%;
+  height: 100%;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
@@ -279,7 +282,7 @@ nav ul li a:hover::after{
   color: #FFFFFF;
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0,0.6), #FAFA33);
+  background: linear-gradient(rgba(0, 0, 0,0.6), #caae21);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -291,7 +294,8 @@ nav ul li a:hover::after{
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 10px;
+  color: #ffffff;
   transition: height 0.5s;
 }
 .layer h3{
@@ -300,9 +304,9 @@ nav ul li a:hover::after{
 }
 .layer a{
   margin-top: 20px;
-  color: #FFDB58;
+  color: #d8d799;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 60px;
   background: #FFFFFF;
   width: 60px;
@@ -558,5 +562,3 @@ nav .bx{
   .subtitletwo{
     font-size: 40px;
   }
-
-}
