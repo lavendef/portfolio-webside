@@ -144,6 +144,28 @@ nav ul li a:hover::after{
 .panel span.extra1{
   color: rgb(255, 255, 255);
 }
+.panel span.extra2{
+  color: rgb(255, 255, 255);
+}
+.panel span.extra3{
+  color: rgb(255, 0, 170);
+}
+.panel span.extra4{
+  color: rgb(255, 64, 0);
+}
+.panel span.extra5{
+  color: rgb(228, 227, 255);
+}
+.panel span.extra6{
+  color: hsl(168, 40%, 88%);
+}
+.panel span.extra7{
+  color: rgb(143, 117, 148);
+}
+.panel span.extra8{
+  color: rgb(65, 74, 0);
+}
+
 #houseiconnic3{
   text-decoration: none;
   margin-top: 30px;
@@ -194,3 +216,96 @@ nav ul li a:hover::after{
   width: 30%;
   margin-top: 20px;
 }
+.Slovefor{
+  width: 20%;
+}
+/*--------------------small screens--------------------------*/
+nav .bx{
+  color: whitesmoke;
+  display: none;
+}
+@media only screen and (max-width: 680px){
+  .header-text{
+    margin-top: 60%;
+    font-size: 15px;
+  }
+  .header-text h2{
+    font-size: 25px;
+  }
+  nav .bx{
+    display: block;
+    font-size: 25px;
+  }
+  nav ul{
+    background: #1ecdf487;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display: block;
+  }
+  nav ul .bx{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    cursor: pointer;
+  }
+  .subtitle{
+    font-size: 40px;
+  }
+  .about-zone-1, .about-zone-2{
+    flex-basis: 87%;
+  }
+  .about-zone-1{
+    margin-bottom: 30px;
+  }
+  .about-zone-2{
+    font-size: 14px;
+    margin: 0 20px;
+  }
+  .links-tab{
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .coltext-left,.coltext-right{
+    flex-basis: 100%;
+  }
+  .copyright{
+    margin: 0 30px;
+  }
+  .certificatelist{
+    margin: 0 30px;
+    margin-top: 20px;
+  }
+  .tab-content a i{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  #certificatezone #houseiconnic2{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .containnerfor #houseiconnic3{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .coltext-left #houseiconnic4{
+    margin-top: 25px;
+    font-size: 15px
+  }
+  .subtitlefor{
+    font-size: 40px;
+  }
+  .subtitletree{
+    font-size: 40px;
+  }
+  .subtitletwo{
+    font-size: 40px;
+  }
