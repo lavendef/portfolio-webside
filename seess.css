@@ -74,49 +74,7 @@ nav ul li a:hover::after{
 .header-text p span{
   color: #feb1d6;
 }
-.button {
-  border-radius: 4px;
-  background-color: #ff9d73;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 15px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 3px;
-  font-family: "line_seed_sans_th", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  margin-top: 20px;
-}
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 /*-------------------รวมเกรียรติบัตรแข่ง---------------------*/
 #Cherificate{
   padding: 80px 0;
@@ -186,6 +144,17 @@ nav ul li a:hover::after{
 .panel span.extra1{
   color: rgb(255, 255, 255);
 }
+#houseiconnic3{
+  text-decoration: none;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: transform 0.5s;
+}
+#houseiconnic3:hover{
+  color: #FBCAE0;
+  transform: translateY(-5px);
+}
 /*-------------------รวมเกรียรติบัตรจากค่าย---------------------*/
 #Camp{
   padding: 80px 0;
@@ -200,4 +169,28 @@ nav ul li a:hover::after{
 }
 .containtree .intro{
   color: #ffffff;
+}
+
+/*-------------------รวมเกรียรติบัตรจากค่าย---------------------*/
+#Learning{
+  padding: 80px 0;
+}
+.containtree{
+  padding: 10px 10%;
+}
+.containtree h2{
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.containtree .intro{
+  color: #ffffff;
+}
+.Sloveformorow{
+  width: 40%;
+  margin-top: 20px;
+}
+.Sloveformoro{
+  width: 30%;
+  margin-top: 20px;
 }
